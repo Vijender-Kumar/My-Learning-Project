@@ -1,0 +1,1259 @@
+{
+	"request_id": "TES0005-CIBIL-1659943604965",
+	"result": {
+	  "controlData": {
+		"success": true
+	  },
+	  "consumerCreditData": [
+		{
+		  "tuefHeader": {
+			"headerType": "TUEF",
+			"version": "12",
+			"memberRefNo": "1234",
+			"enquiryMemberUserId": "BF91110011",
+			"subjectReturnCode": 1,
+			"enquiryControlNumber": "002157189450",
+			"dateProcessed": "05082022",
+			"timeProcessed": "221812"
+		  },
+		  "names": [
+			{
+			  "index": "N01",
+			  "name": "JOHN JH WICK",
+			  "birthDate": "01011990",
+			  "gender": "1"
+			}
+		  ],
+		  "ids": [
+			{
+			  "index": "I01",
+			  "idType": "01",
+			  "idNumber": "ABCDE1234F"
+			}
+		  ],
+		  "telephones": [
+			{
+			  "index": "T01",
+			  "telephoneNumber": "9999999999",
+			  "telephoneType": "01"
+			},
+			{
+			  "index": "T02",
+			  "telephoneNumber": "9999999999",
+			  "telephoneType": "01"
+			},
+			{
+			  "index": "T03",
+			  "telephoneNumber": "9999999999",
+			  "telephoneType": "01"
+			},
+			{
+			  "index": "T04",
+			  "telephoneNumber": "9999999999",
+			  "telephoneType": "01"
+			}
+		  ],
+		  "emails": [
+			{
+			  "index": "C01",
+			  "emailID": "ABC.XYZ@TRANSUNION.COM"
+			},
+			{
+			  "index": "C02",
+			  "emailID": "ABC.XYZ@TRANSUNION.COM"
+			},
+			{
+			  "index": "C03",
+			  "emailID": "ABC.XYZ@TRANSUNION.COM"
+			},
+			{
+			  "index": "C04",
+			  "emailID": "ABC.XYZ@TRANSUNION.COM"
+			}
+		  ],
+		  "employment": [
+			{
+			  "index": "E01",
+			  "accountType": "07",
+			  "dateReported": "30062015",
+			  "occupationCode": "03"
+			}
+		  ],
+		  "scores": [
+			{
+			  "scoreName": "CIBILTUSC3",
+			  "scoreCardName": "08",
+			  "scoreCardVersion": "10",
+			  "scoreDate": "05082022",
+			  "score": "00676",
+			  "reasonCodes": [
+				{
+				  "reasonCodeName": "reasonCode1",
+				  "reasonCodeValue": "04"
+				},
+				{
+				  "reasonCodeName": "reasonCode2",
+				  "reasonCodeValue": "32"
+				},
+				{
+				  "reasonCodeName": "reasonCode3",
+				  "reasonCodeValue": "25"
+				},
+				{
+				  "reasonCodeName": "reasonCode4",
+				  "reasonCodeValue": "28"
+				},
+				{
+				  "reasonCodeName": "reasonCode5",
+				  "reasonCodeValue": "03"
+				}
+			  ]
+			}
+		  ],
+		  "addresses": [
+			{
+			  "index": "A01",
+			  "line1": "DEFAULT ADDRESS 1 DEFAULT ADDRESS 2",
+			  "stateCode": "07",
+			  "pinCode": "110005",
+			  "addressCategory": "03",
+			  "dateReported": "10022020"
+			},
+			{
+			  "index": "A02",
+			  "line1": "ABC MUMBAI",
+			  "stateCode": "27",
+			  "pinCode": "400005",
+			  "addressCategory": "04",
+			  "dateReported": "12102019"
+			},
+			{
+			  "index": "A03",
+			  "line1": "XYZ CIBIL XXth FLOOR MUMBAI",
+			  "stateCode": "27",
+			  "pinCode": "400003",
+			  "addressCategory": "03",
+			  "dateReported": "28032019",
+			  "enquiryEnriched": "Y"
+			},
+			{
+			  "index": "A04",
+			  "line1": "TRANSUNION CIBIL,  XXth floor",
+			  "line2": "One XYZ center, Tower XX",
+			  "line5": "MUMBAI",
+			  "stateCode": "27",
+			  "pinCode": "400003",
+			  "addressCategory": "01",
+			  "dateReported": "28032019",
+			  "enquiryEnriched": "Y"
+			}
+		  ],
+		  "accounts": [
+			{
+			  "index": "T001",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "51",
+			  "ownershipIndicator": 4,
+			  "dateOpened": "29102016",
+			  "lastPaymentDate": "22122016",
+			  "dateClosed": "23122016",
+			  "dateReported": "31012017",
+			  "highCreditAmount": 750000,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000000000",
+			  "paymentStartDate": "01012017",
+			  "paymentEndDate": "01102016",
+			  "suitFiled": "01",
+			  "paymentTenure": 100
+			},
+			{
+			  "index": "T002",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "61",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "16092015",
+			  "lastPaymentDate": "04012017",
+			  "dateReported": "04032017",
+			  "highCreditAmount": 29234,
+			  "currentBalance": 100,
+			  "amountOverdue": 20,
+			  "paymentHistory": "111010XXX000",
+			  "paymentStartDate": "01032017",
+			  "paymentEndDate": "01122016",
+			  "suitFiled": "02",
+			  "creditFacilityStatus": "08",
+			  "paymentTenure": 100,
+			  "paymentFrequency": "02",
+			  "actualPaymentAmount": 4968,
+			  "cibilRemarksDate": "26072021",
+			  "cibilRemarksCode": "TL1888"
+			},
+			{
+			  "index": "T003",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "61",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "16092015",
+			  "lastPaymentDate": "13112016",
+			  "dateReported": "10022017",
+			  "highCreditAmount": 29265,
+			  "currentBalance": 100,
+			  "amountOverdue": 6,
+			  "paymentHistory": "010000000000000000000000000XXX000XXX000000000000000",
+			  "paymentStartDate": "01022017",
+			  "paymentEndDate": "01102015",
+			  "suitFiled": "01",
+			  "creditFacilityStatus": "11",
+			  "paymentTenure": 100,
+			  "paymentFrequency": "03",
+			  "cibilRemarksDate": "30042021",
+			  "cibilRemarksCode": "TL1013"
+			},
+			{
+			  "index": "T004",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "02",
+			  "ownershipIndicator": 4,
+			  "dateOpened": "28042015",
+			  "lastPaymentDate": "14072016",
+			  "dateReported": "02122018",
+			  "highCreditAmount": 5050001,
+			  "currentBalance": 100,
+			  "amountOverdue": 150000,
+			  "paymentHistory": "000XXX035000XXX000000",
+			  "paymentStartDate": "01122018",
+			  "paymentEndDate": "01062018",
+			  "suitFiled": "01",
+			  "paymentTenure": 100
+			},
+			{
+			  "index": "T005",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "27082012",
+			  "lastPaymentDate": "27012017",
+			  "dateReported": "27022017",
+			  "highCreditAmount": 1186019,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+			  "paymentStartDate": "01022017",
+			  "paymentEndDate": "01032014",
+			  "suitFiled": "01",
+			  "creditFacilityStatus": "12",
+			  "collateralValue": 11,
+			  "collateralType": "02",
+			  "paymentTenure": 100,
+			  "paymentFrequency": "04",
+			  "cibilRemarksDate": "17062021",
+			  "cibilRemarksCode": "TL1005"
+			},
+			{
+			  "index": "T006",
+			  "memberShortName": "REP",
+			  "accountNumber": "ABCDE1234567",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "13052022",
+			  "lastPaymentDate": "16052022",
+			  "dateReported": "29052022",
+			  "highCreditAmount": 500000,
+			  "currentBalance": 50000,
+			  "amountOverdue": 1500,
+			  "paymentHistory": "030",
+			  "paymentStartDate": "01052022",
+			  "paymentEndDate": "01052022",
+			  "creditLimit": 12500,
+			  "cashLimit": 16000
+			},
+			{
+			  "index": "T007",
+			  "memberShortName": "REP",
+			  "accountNumber": "ABCDE1234567",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "13052022",
+			  "lastPaymentDate": "16052022",
+			  "dateReported": "29052022",
+			  "highCreditAmount": 500000,
+			  "currentBalance": 50000,
+			  "amountOverdue": 1500,
+			  "paymentHistory": "030",
+			  "paymentStartDate": "01052022",
+			  "paymentEndDate": "01052022",
+			  "creditLimit": 12500,
+			  "cashLimit": 16000
+			},
+			{
+			  "index": "T008",
+			  "memberShortName": "REP",
+			  "accountNumber": "ABCDE1234567",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "13052022",
+			  "lastPaymentDate": "16052022",
+			  "dateReported": "29052022",
+			  "highCreditAmount": 500000,
+			  "currentBalance": 50000,
+			  "amountOverdue": 1500,
+			  "paymentHistory": "030",
+			  "paymentStartDate": "01052022",
+			  "paymentEndDate": "01052022",
+			  "creditLimit": 12500,
+			  "cashLimit": 16000
+			},
+			{
+			  "index": "T009",
+			  "memberShortName": "REP",
+			  "accountNumber": "ABCDE1234567",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "13052022",
+			  "lastPaymentDate": "16052022",
+			  "dateReported": "29052022",
+			  "highCreditAmount": 500000,
+			  "currentBalance": 50000,
+			  "amountOverdue": 1500,
+			  "paymentHistory": "030",
+			  "paymentStartDate": "01052022",
+			  "paymentEndDate": "01052022",
+			  "creditLimit": 12500,
+			  "cashLimit": 16000
+			},
+			{
+			  "index": "T010",
+			  "memberShortName": "REP",
+			  "accountNumber": "ABCDE1234567",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "25042022",
+			  "lastPaymentDate": "29042022",
+			  "dateReported": "04052022",
+			  "highCreditAmount": 500000,
+			  "currentBalance": 50000,
+			  "amountOverdue": 1500,
+			  "paymentHistory": "030",
+			  "paymentStartDate": "01052022",
+			  "paymentEndDate": "01052022"
+			},
+			{
+			  "index": "T011",
+			  "memberShortName": "REP",
+			  "accountNumber": "ABCDE1234567",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "15032022",
+			  "lastPaymentDate": "19032022",
+			  "dateReported": "23032022",
+			  "highCreditAmount": 500000,
+			  "currentBalance": 50000,
+			  "amountOverdue": 1500,
+			  "paymentHistory": "030",
+			  "paymentStartDate": "01032022",
+			  "paymentEndDate": "01032022"
+			},
+			{
+			  "index": "T012",
+			  "memberShortName": "REP",
+			  "accountNumber": "ABCDE1234567",
+			  "accountType": "05",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "15032022",
+			  "lastPaymentDate": "18032022",
+			  "dateReported": "20032022",
+			  "highCreditAmount": 500000,
+			  "currentBalance": 50000,
+			  "amountOverdue": 6500,
+			  "paymentHistory": "030",
+			  "paymentStartDate": "01032022",
+			  "paymentEndDate": "01032022"
+			},
+			{
+			  "index": "T013",
+			  "memberShortName": "REP",
+			  "accountNumber": "1234567890123456",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "01032022",
+			  "lastPaymentDate": "03032022",
+			  "dateReported": "06032022",
+			  "highCreditAmount": 82277,
+			  "currentBalance": 100,
+			  "amountOverdue": 30,
+			  "paymentHistory": "STD",
+			  "paymentStartDate": "01032022",
+			  "paymentEndDate": "01032022"
+			},
+			{
+			  "index": "T014",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "29082016",
+			  "lastPaymentDate": "27012017",
+			  "dateReported": "31012017",
+			  "highCreditAmount": 29122,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000000000000",
+			  "paymentStartDate": "01012017",
+			  "paymentEndDate": "01092016",
+			  "creditFacilityStatus": "03",
+			  "creditLimit": 394000,
+			  "cashLimit": 39400,
+			  "paymentTenure": 100,
+			  "settlementAmount": 8000,
+			  "cibilRemarksDate": "17062021",
+			  "cibilRemarksCode": "TL1013"
+			},
+			{
+			  "index": "T015",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "29072016",
+			  "lastPaymentDate": "02022017",
+			  "dateReported": "10112020",
+			  "highCreditAmount": 1100000,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000000000000000000",
+			  "paymentStartDate": "01022017",
+			  "paymentEndDate": "01082016",
+			  "paymentTenure": 100,
+			  "paymentFrequency": "03",
+			  "cibilRemarksDate": "30042021",
+			  "cibilRemarksCode": "TL1888"
+			},
+			{
+			  "index": "T016",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "00",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "18062016",
+			  "lastPaymentDate": "02022017",
+			  "dateReported": "28022017",
+			  "highCreditAmount": 50999,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000000000000000000000000",
+			  "paymentStartDate": "01022017",
+			  "paymentEndDate": "01062016",
+			  "paymentTenure": 100,
+			  "cibilRemarksDate": "04052020",
+			  "cibilRemarksCode": "TL1888"
+			},
+			{
+			  "index": "T017",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "10092015",
+			  "lastPaymentDate": "20022017",
+			  "dateReported": "28022017",
+			  "highCreditAmount": 213599,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000000000000000000000000000000000000000000000000",
+			  "paymentStartDate": "01022017",
+			  "paymentEndDate": "01102015",
+			  "paymentTenure": 100,
+			  "cibilRemarksDate": "30042021",
+			  "cibilRemarksCode": "TL1888"
+			},
+			{
+			  "index": "T018",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "03092015",
+			  "lastPaymentDate": "09122016",
+			  "dateReported": "28122016",
+			  "currentBalance": 100,
+			  "paymentHistory": "000000XXX000000000000000000000000000000000000000",
+			  "paymentStartDate": "01122016",
+			  "paymentEndDate": "01092015",
+			  "paymentTenure": 100,
+			  "paymentFrequency": "03",
+			  "cibilRemarksDate": "18062021",
+			  "cibilRemarksCode": "TL1005"
+			},
+			{
+			  "index": "T019",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "02",
+			  "ownershipIndicator": 4,
+			  "dateOpened": "27072015",
+			  "lastPaymentDate": "05022017",
+			  "dateReported": "11052019",
+			  "highCreditAmount": 1500001,
+			  "currentBalance": 100,
+			  "paymentHistory": "000009023055075170150130900STDSUBDBTLSSSMA000000000000000000000000000000000000000000000000000000000000000000",
+			  "paymentStartDate": "01052019",
+			  "paymentEndDate": "01072017",
+			  "creditFacilityStatus": "06",
+			  "paymentTenure": 100,
+			  "cibilRemarksDate": "28042021",
+			  "cibilRemarksCode": "TL1033"
+			},
+			{
+			  "index": "T020",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "07",
+			  "ownershipIndicator": 4,
+			  "dateOpened": "30042015",
+			  "lastPaymentDate": "14072016",
+			  "dateClosed": "14072016",
+			  "dateReported": "01092016",
+			  "highCreditAmount": 3900000,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000XXX000000XXX000000000000000000000XXX000XXX000",
+			  "paymentStartDate": "01092016",
+			  "paymentEndDate": "01052015",
+			  "paymentTenure": 100
+			},
+			{
+			  "index": "T021",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "02",
+			  "ownershipIndicator": 4,
+			  "dateOpened": "21072014",
+			  "lastPaymentDate": "21052015",
+			  "dateClosed": "21052015",
+			  "dateReported": "02122018",
+			  "highCreditAmount": 5096901,
+			  "currentBalance": 100,
+			  "amountOverdue": 10000,
+			  "paymentHistory": "000",
+			  "paymentStartDate": "01122018",
+			  "paymentEndDate": "01122018",
+			  "paymentTenure": 100
+			},
+			{
+			  "index": "T022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "08",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "10062014",
+			  "lastPaymentDate": "02022015",
+			  "dateClosed": "23032015",
+			  "dateReported": "02122018",
+			  "highCreditAmount": 42001,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000000XXX000000000XXXXXXXXXXXXXXXXXXXXX",
+			  "paymentStartDate": "01122018",
+			  "paymentEndDate": "01112017",
+			  "paymentTenure": 100
+			},
+			{
+			  "index": "T023",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "17",
+			  "ownershipIndicator": 3,
+			  "dateOpened": "05102013",
+			  "lastPaymentDate": "26052015",
+			  "dateClosed": "26052015",
+			  "dateReported": "30092015",
+			  "highCreditAmount": 500000,
+			  "currentBalance": 100,
+			  "paymentHistory": "STDSTDSTDXXXSTDSTDSTDSUBDBTLSSSMA",
+			  "paymentStartDate": "01092015",
+			  "paymentEndDate": "01032015",
+			  "interestRate": 17.51,
+			  "paymentTenure": 100,
+			  "emiAmount": 17956,
+			  "cibilRemarksDate": "22072021",
+			  "cibilRemarksCode": "TL1013"
+			},
+			{
+			  "index": "T024",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "06",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "24092013",
+			  "lastPaymentDate": "05062014",
+			  "dateClosed": "14062014",
+			  "dateReported": "30112014",
+			  "highCreditAmount": 59800,
+			  "currentBalance": 100,
+			  "paymentHistory": "000",
+			  "paymentStartDate": "01062014",
+			  "paymentEndDate": "01062014",
+			  "paymentTenure": 100,
+			  "cibilRemarksDate": "10022021",
+			  "cibilRemarksCode": "TL1888"
+			},
+			{
+			  "index": "T025",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "19092013",
+			  "lastPaymentDate": "17022017",
+			  "dateReported": "14032017",
+			  "highCreditAmount": 82277,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+			  "paymentStartDate": "01032017",
+			  "paymentEndDate": "01042014",
+			  "creditLimit": 350000,
+			  "cashLimit": 26124,
+			  "interestRate": 40.8,
+			  "paymentTenure": 100,
+			  "paymentFrequency": "03",
+			  "actualPaymentAmount": 22990,
+			  "cibilRemarksDate": "17062021",
+			  "cibilRemarksCode": "TL1005"
+			},
+			{
+			  "index": "T026",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "02",
+			  "ownershipIndicator": 4,
+			  "dateOpened": "31032013",
+			  "lastPaymentDate": "14082014",
+			  "dateClosed": "14082014",
+			  "dateReported": "31082016",
+			  "highCreditAmount": 5018006,
+			  "currentBalance": 100,
+			  "amountOverdue": 120,
+			  "paymentHistory": "000XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX000XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX000000000000000024000000000000000000",
+			  "paymentStartDate": "01082016",
+			  "paymentEndDate": "01092013",
+			  "paymentTenure": 100,
+			  "cibilRemarksDate": "05062020",
+			  "cibilRemarksCode": "TL1888"
+			},
+			{
+			  "index": "T027",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "24092012",
+			  "lastPaymentDate": "05092014",
+			  "dateReported": "31052015",
+			  "highCreditAmount": 18044,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000000000000000000000000000000000000000000000000000000000000000000000000",
+			  "paymentStartDate": "01092014",
+			  "paymentEndDate": "01092012",
+			  "cashLimit": 1000,
+			  "paymentTenure": 100,
+			  "cibilRemarksDate": "25082020",
+			  "cibilRemarksCode": "TL1888"
+			},
+			{
+			  "index": "T028",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "21092012",
+			  "lastPaymentDate": "18092016",
+			  "dateReported": "01012019",
+			  "highCreditAmount": 25349,
+			  "currentBalance": 100,
+			  "paymentHistory": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+			  "paymentStartDate": "01012019",
+			  "paymentEndDate": "01022016",
+			  "creditLimit": 147000,
+			  "interestRate": 39,
+			  "paymentTenure": 100,
+			  "actualPaymentAmount": 1020,
+			  "cibilRemarksDate": "19082020",
+			  "cibilRemarksCode": "TL1036"
+			},
+			{
+			  "index": "T029",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "01",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "30072014",
+			  "lastPaymentDate": "05092015",
+			  "dateReported": "08122018",
+			  "highCreditAmount": 11111,
+			  "currentBalance": 100,
+			  "paymentHistory": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX000000000000000000000000000000000000000000",
+			  "paymentStartDate": "01122018",
+			  "paymentEndDate": "01012016",
+			  "creditFacilityStatus": "12",
+			  "collateralValue": 1111,
+			  "collateralType": "02",
+			  "paymentTenure": 100,
+			  "paymentFrequency": "01",
+			  "actualPaymentAmount": 17714,
+			  "cibilRemarksDate": "05012021",
+			  "cibilRemarksCode": "TL1999"
+			},
+			{
+			  "index": "T030",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "06",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "31072013",
+			  "lastPaymentDate": "02042014",
+			  "dateClosed": "25052014",
+			  "dateReported": "30112014",
+			  "highCreditAmount": 34000,
+			  "currentBalance": 100,
+			  "paymentHistory": "XXX",
+			  "paymentStartDate": "01052014",
+			  "paymentEndDate": "01052014",
+			  "paymentTenure": 100,
+			  "cibilRemarksDate": "30062020",
+			  "cibilRemarksCode": "TL1044"
+			},
+			{
+			  "index": "T031",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "06",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "31072013",
+			  "lastPaymentDate": "02042014",
+			  "dateReported": "01122014",
+			  "highCreditAmount": 1111,
+			  "currentBalance": 100,
+			  "paymentHistory": "XXX",
+			  "paymentStartDate": "01122014",
+			  "paymentEndDate": "01122014",
+			  "creditFacilityStatus": "01",
+			  "paymentTenure": 100,
+			  "cibilRemarksDate": "06052021",
+			  "cibilRemarksCode": "TL1033"
+			},
+			{
+			  "index": "T032",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "10",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "13052013",
+			  "lastPaymentDate": "12012017",
+			  "dateReported": "04042017",
+			  "highCreditAmount": 167661,
+			  "currentBalance": 100,
+			  "paymentHistory": "XXX000000000000000000000000000000000000000000000000XXX000000000000000000000XXX000000000000000000000000000000",
+			  "paymentStartDate": "01042017",
+			  "paymentEndDate": "01052014",
+			  "creditLimit": 428000,
+			  "cashLimit": 128400,
+			  "paymentTenure": 100,
+			  "paymentFrequency": "03",
+			  "actualPaymentAmount": 30566,
+			  "cibilRemarksDate": "29122020",
+			  "cibilRemarksCode": "TL1999"
+			},
+			{
+			  "index": "T033",
+			  "memberShortName": "NOT DISCLOSED",
+			  "accountType": "06",
+			  "ownershipIndicator": 1,
+			  "dateOpened": "29022012",
+			  "lastPaymentDate": "05112012",
+			  "dateReported": "01122014",
+			  "highCreditAmount": 18300,
+			  "currentBalance": 100,
+			  "paymentHistory": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX000XXX000",
+			  "paymentStartDate": "01122014",
+			  "paymentEndDate": "01032012",
+			  "paymentTenure": 100,
+			  "cibilRemarksDate": "21092020",
+			  "cibilRemarksCode": "TL1044"
+			}
+		  ],
+		  "enquiries": [
+			{
+			  "index": "I001",
+			  "enquiryDate": "05082022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I002",
+			  "enquiryDate": "05082022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I003",
+			  "enquiryDate": "05082022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I004",
+			  "enquiryDate": "05082022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I005",
+			  "enquiryDate": "05082022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I006",
+			  "enquiryDate": "05082022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I007",
+			  "enquiryDate": "03082022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I008",
+			  "enquiryDate": "02082022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I009",
+			  "enquiryDate": "25072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I010",
+			  "enquiryDate": "25072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I011",
+			  "enquiryDate": "25072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I012",
+			  "enquiryDate": "25072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I013",
+			  "enquiryDate": "21072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I014",
+			  "enquiryDate": "21072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I015",
+			  "enquiryDate": "21072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "05",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I016",
+			  "enquiryDate": "21072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "05",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I017",
+			  "enquiryDate": "21072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "05",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I018",
+			  "enquiryDate": "21072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I019",
+			  "enquiryDate": "21072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I020",
+			  "enquiryDate": "21072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I021",
+			  "enquiryDate": "21072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I022",
+			  "enquiryDate": "21072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I023",
+			  "enquiryDate": "20072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I024",
+			  "enquiryDate": "15072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I025",
+			  "enquiryDate": "15072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I026",
+			  "enquiryDate": "13072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "66",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I027",
+			  "enquiryDate": "13072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I028",
+			  "enquiryDate": "12072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I029",
+			  "enquiryDate": "12072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I030",
+			  "enquiryDate": "12072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I031",
+			  "enquiryDate": "07072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I032",
+			  "enquiryDate": "07072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I033",
+			  "enquiryDate": "06072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I034",
+			  "enquiryDate": "05072022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I035",
+			  "enquiryDate": "05072022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I036",
+			  "enquiryDate": "04072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I037",
+			  "enquiryDate": "04072022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I038",
+			  "enquiryDate": "28062022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I039",
+			  "enquiryDate": "09062022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I040",
+			  "enquiryDate": "03062022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "00",
+			  "enquiryAmount": 100000
+			},
+			{
+			  "index": "I041",
+			  "enquiryDate": "02062022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "05",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I042",
+			  "enquiryDate": "02062022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "05",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I043",
+			  "enquiryDate": "02062022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I044",
+			  "enquiryDate": "02062022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I045",
+			  "enquiryDate": "01062022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I046",
+			  "enquiryDate": "01062022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I047",
+			  "enquiryDate": "01062022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I048",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I049",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "00",
+			  "enquiryAmount": 100000
+			},
+			{
+			  "index": "I050",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "00",
+			  "enquiryAmount": 100000
+			},
+			{
+			  "index": "I051",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "00",
+			  "enquiryAmount": 100000
+			},
+			{
+			  "index": "I052",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "00",
+			  "enquiryAmount": 100000
+			},
+			{
+			  "index": "I053",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "00",
+			  "enquiryAmount": 100000
+			},
+			{
+			  "index": "I054",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "00",
+			  "enquiryAmount": 100000
+			},
+			{
+			  "index": "I055",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "00",
+			  "enquiryAmount": 100000
+			},
+			{
+			  "index": "I056",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "00",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I057",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I058",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I059",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I060",
+			  "enquiryDate": "30052022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I061",
+			  "enquiryDate": "27052022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I062",
+			  "enquiryDate": "27052022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I063",
+			  "enquiryDate": "27052022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I064",
+			  "enquiryDate": "27052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I065",
+			  "enquiryDate": "27052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I066",
+			  "enquiryDate": "26052022",
+			  "memberShortName": "NOT DISCLOSED",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I067",
+			  "enquiryDate": "26052022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			},
+			{
+			  "index": "I068",
+			  "enquiryDate": "26052022",
+			  "memberShortName": "TRG MEMBER",
+			  "enquiryPurpose": "10",
+			  "enquiryAmount": 1500
+			}
+		  ]
+		}
+	  ],
+	  "consumerSummaryData": {
+		"accountSummary": {
+		  "totalAccounts": 33,
+		  "overdueAccounts": 13,
+		  "zeroBalanceAccounts": 0,
+		  "highCreditAmount": 28495078,
+		  "currentBalance": 352600,
+		  "overdueBalance": 175676,
+		  "recentDateOpened": "13052022",
+		  "oldestDateOpened": "29022012"
+		},
+		"inquirySummary": {
+		  "totalInquiry": 68,
+		  "inquiryPast30Days": 33,
+		  "inquiryPast12Months": 35,
+		  "inquiryPast24Months": 0,
+		  "recentInquiryDate": "05082022"
+		}
+	  }
+	}
+  }
+  
