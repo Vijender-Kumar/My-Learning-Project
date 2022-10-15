@@ -18,7 +18,7 @@ const cibilDateFormater = (date_account) => {
 }
 
 const formatYmd = (date) => {
-    if(date){
+    if (date) {
         return date.toISOString().slice(0, 10);
     } else {
         return null
@@ -73,13 +73,19 @@ const result = (accounts = []) => {
     return payHistory
 }
 
-try {
-    payHistory = result(datajson.result.consumerCreditData[0].accounts);
-    console.log(payHistory);
-} catch (e) {
-    payHistory = null;
-    console.log(payHistory);
+const cibilMapper = (datajson) => {
+    try {
+        payHistory = result(datajson.result.consumerCreditData[0].accounts);
+        // console.log(payHistory);
+    } catch (e) {
+        payHistory = null;
+        // console.log(payHistory);
+    }
+    return {
+        payHistorys: payHistory
+    }
 }
+console.log(cibilMapper(datajson));
 
 
 
