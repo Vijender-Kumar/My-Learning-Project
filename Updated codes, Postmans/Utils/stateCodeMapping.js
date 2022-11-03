@@ -1,0 +1,41 @@
+const stateCodeMapping = {
+  "ANDHRA PRADESH": "AP",
+  "ARUNACHAL PRADESH": "AR",
+  ASSAM: "AS",
+  BIHAR: "BR",
+  CHHATTISGARH: "CG",
+  GOA: "GA",
+  GUJARAT: "GJ",
+  HARYANA: "HR",
+  "HIMACHAL PRADESH": "HP",
+  "JAMMU AND KASHMIR": "JK",
+  JHARKHAND: "JH",
+  KERALA: "KL",
+  "MADHYA PRADESH": "MP",
+  MAHARASHTRA: "MH",
+  MANIPUR: "MN",
+  MEGHALAYA: "ML",
+  MIZORAM: "MZ",
+  NAGALAND: "NL",
+  ODISHA: "OR",
+  PUNJAB: "PB",
+  RAJASTHAN: "RJ",
+  SIKKIM: "SK",
+  "TAMIL NADU": "TN",
+  TELANGANA: "TS",
+  TRIPURA: "TR",
+  UTTARAKHAND: "UK",
+  "UTTAR PRADESH": "UP",
+  "WEST BENGAL": "WB",
+  "ANDAMAN AND NICOBAR ISLANDS": "AN",
+  CHANDIGARH: "CH",
+  "DADRA AND NAGAR HAVELI AND DAMAN AND DIU": "DN",
+  "DAMAN AND DIU": "DD",
+  DELHI: "DL",
+  LAKSHADWEEP: "LD",
+  PONDICHERRY: "PY"
+};
+
+module.exports = {
+  stateCodeMapping
+};
