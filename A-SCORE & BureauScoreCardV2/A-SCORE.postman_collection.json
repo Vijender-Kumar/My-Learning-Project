@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "b56a322e-6946-466d-8f9f-be5d411a8368",
+		"name": "A-SCORE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21132734"
+	},
+	"item": [
+		{
+			"name": "CRIF Bureau V2",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2lkIjo1NTcsImNvbXBhbnlfY29kZSI6IlNBTTAwMDgiLCJ1c2VyX2lkIjo2MTk5LCJ0eXBlIjoic2VydmljZSIsInRva2VuX2lkIjoiNTU3LVNBTTAwMDgtMTY2MTE2NTIzNjc1NiIsImVudmlyb25tZW50Ijoic2FuZGJveCIsImlhdCI6MTY2MTE2NTIzNn0.W4z-UdbfooO1PgIq97XJurgpMK4Uzf_GsGq52_gbvpA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\": \"DIBYALATA\",\r\n    \"last_name\": \"SAIKIA\",\r\n    \"dob\": \"1974-08-15\",\r\n    \"pan\": \"BZIPO6181K\",\r\n    \"gender\": \"FEMALE\",\r\n    \"mobile_number\": \"6668962316\",\r\n    \"address\": \"W O NIKHIL SAIKIA VILL 15 NO JALONI GRANT\",\r\n    \"city\": \"DIBRUGARH\",\r\n    \"state_code\": \"AS\",\r\n    \"pin_code\": \"786602\",\r\n    \"enquiry_purpose\": \"05\",\r\n    \"enquiry_stage\": \"PRE-SCREEN\",\r\n    \"enquiry_amount\": \"3000\",\r\n    \"en_acc_account_number_1\": \" \",\r\n    \"loan_app_id\": \"BHYPL-1061\",\r\n    \"consent\": \"Y\",\r\n    \"consent_timestamp\": \"2022-11-25 06:30:10\",\r\n    \"bureau_type\": \"crif\",\r\n    \"partner_id\": \"1\",\r\n    \"product_type\": \"STPL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/bureau-scorecard-v2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"bureau-scorecard-v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CIBIL Bureau V2",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2lkIjo1NTcsImNvbXBhbnlfY29kZSI6IlNBTTAwMDgiLCJ1c2VyX2lkIjo2MTk5LCJ0eXBlIjoic2VydmljZSIsInRva2VuX2lkIjoiNTU3LVNBTTAwMDgtMTY2MTE2NTIzNjc1NiIsImVudmlyb25tZW50Ijoic2FuZGJveCIsImlhdCI6MTY2MTE2NTIzNn0.W4z-UdbfooO1PgIq97XJurgpMK4Uzf_GsGq52_gbvpA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\": \"VAHIDHA MAHABOOB \",\r\n    \"last_name\": \"BASHA\",\r\n    \"dob\": \"1991-01-15\",\r\n    \"pan\": \"AJPPV5514L\",\r\n    \"gender\": \"FEMALE\",\r\n    \"mobile_number\": \"9789024712\",\r\n    \"address\": \"NO 62,SHANMUGA PADMAVATHI NAGAR,ONDIKUPP\",\r\n    \"city\": \"THIRUVALLUR\",\r\n    \"state_code\": \"33\",\r\n    \"pin_code\": \"602002\",\r\n    \"enquiry_purpose\": \"05\",\r\n    \"enquiry_stage\": \"PRE-SCREEN\",\r\n    \"enquiry_amount\": \"3000\",\r\n    \"en_acc_account_number_1\": \" \",\r\n    \"loan_app_id\": \"JUSPL001-t-04\",\r\n    \"consent\": \"Y\",\r\n    \"consent_timestamp\": \"2022-11-25 06:30:10\",\r\n    \"bureau_type\": \"cibil\",\r\n    \"partner_id\": \"1\",\r\n    \"tenure\": 0,\r\n    \"product_type\": \"STPL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/bureau-scorecard-v2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"bureau-scorecard-v2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "A-SCORE",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2lkIjo1NTcsImNvbXBhbnlfY29kZSI6IlNBTTAwMDgiLCJ1c2VyX2lkIjo2MTk5LCJ0eXBlIjoic2VydmljZSIsInRva2VuX2lkIjoiNTU3LVNBTTAwMDgtMTY2MTE2NTIzNjc1NiIsImVudmlyb25tZW50Ijoic2FuZGJveCIsImlhdCI6MTY2MTE2NTIzNn0.W4z-UdbfooO1PgIq97XJurgpMK4Uzf_GsGq52_gbvpA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"request_id\": \"uat-oo1\",\r\n    \"product\": \"STBL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4001/api/a-score",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"a-score"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
